@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AchieversIT Clone</title>
+<style>
+* {margin:0; padding:0; box-sizing:border-box; font-family:Arial, sans-serif;}
+
+/* TOP NAV - BLACK */
+.top-nav {
+    background: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffcc00;
+}
+.top-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.top-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.top-nav .right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.login-btn {
+    background: #000;
+    color: white;
+    border: 1px solid #555;
+    padding: 6px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* SECOND NAV - BLUE */
+.second-nav {
+    background: #1e3a8a;
+    display: flex;
+    justify-content: center;
+}
+.second-nav ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+}
+.second-nav ul li {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #2c4db3;
+}
+.second-nav ul li:last-child {border-right: none;}
+.second-nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px 0;
+    font-weight: 500;
+    font-size: 14px;
+}
+.second-nav ul li a:hover {
+    background: #2c4db3;
+}
+
+/* HERO SECTION */
+.hero {
+    background: #f0f8ff;
+    text-align: center;
+    padding: 60px 20px;
+}
+.hero h1 {
+    font-size: 32px;
+    color: #222;
+    margin-bottom: 10px;
+}
+.hero p {
+    color: #555;
+    margin-bottom: 20px;
+}
+.hero .btn {
+    background: #1e3a8a;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+.hero .btn-outline {
+    background: white;
+    color: #1e3a8a;
+    border: 1px solid #1e3a8a;
+}
+.hero img {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 30px;
+}
+</style>
+</head>
+<body>
+
+<!-- 1ST NAVBAR -->
+<nav class="top-nav">
+    <div class="logo">🎓 ACHIEVERSIT</div>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Internships</a></li>
+        <li><a href="#">Placements</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="right">
+        <span>🔍</span>
+        <span>🔔</span>
+        <button class="login-btn">Login</button>
+    </div>
+</nav>
+
+<!-- 2ND NAVBAR -->
+<nav class="second-nav">
+    <ul>
+        <li><a href="#">Python Full Stack</a></li>
+        <li><a href="#">Java Full Stack</a></li>
+        <li><a href="#">Data Science</a></li>
+        <li><a href="#">AWS</a></li>
+        <li><a href="#">DevOps</a></li>
+    </ul>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <h1>Welcome to AchieversIT</h1>
+    <p>Empowering Your Future with Quality Education & Placement Opportunities</p>
+    <button class="btn">Explore Courses</button>
+    <button class="btn btn-outline">Know More</button>
+    <br>
+    <img src="https://i.imgur.com/8QmKZQp.png" alt="students">
+</section>
+
+</body>
+</html>
