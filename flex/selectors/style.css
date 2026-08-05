@@ -1,0 +1,32 @@
+a {
+    color: royalblue;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: all 0.3s ease; /* smooth effect kosam */
+}
+
+/* ALL anchor tags hover */
+a:hover {
+    background: lightblue;
+    color: darkblue;
+    border-radius: 5px;
+}
+
+/* ===== ALL BUTTONS ===== */
+button {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s ease; /* smooth effect kosam */
+}
+
+/* ALL buttons hover */
+button:hover {
+    background: darkorange;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px gray;
+}

@@ -1,0 +1,594 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML</title>
+</head>
+
+<body>
+
+<header>
+
+<table align="center" border="0" style="border-collapse: collapse;" width="1300" height="70">
+    <thead style="background-color:aqua;">
+        <tr>
+             <th><img style="width: 60px; height:60px;" src="../images/logo.jpg"></th>
+                <th colspan="2">HTML Learning Portal</th>
+                <th ><a href="Index.html">Introduction</a></th>
+                <th ><a href="list.html">List</a> </th>
+                <th><a href="tables.html">Tables</a></th>
+                <th><a href="media.html">Media</a></th>
+                <th><a href="link.html">Links</a></th>
+                <th><a href="forms.html">Forms</th>
+                <th><a href="semantic.html">Semantic</a></th>
+                <th><a href="layout.html">Layout</a></th>
+               
+        </tr>
+    </thead>
+</table>
+
+<table border="0" width="1300" style="background-color:cadetblue;">
+
+<tr>
+
+<td width="15%" valign="top" style="background-color:dimgray;">
+
+<h1>SEMANTIC </h1>
+
+<ul>
+
+<li><a href="#intro" style="color:black;">What is Semantic HTML?</a></li><br>
+<li><a href="#why" style="color:black;">Why are Semantic Elements Used?</a></li><br>
+<li><a href="#adv" style="color:black;">Advantages</a></li><br>
+<li><a href="#compare" style="color:black;">Semantic vs Non-Semantic</a></li><br>
+<li><a href="#tags" style="color:black;">Common Semantic HTML Tags</a></li><br>
+<li><a href="#desc" style="color:black;">Description of Semantic Elements</a></li><br>
+<li><a href="#app" style="color:black;">Applications</a></li><br>
+<li><a href="#layout" style="color:black;">Semantic Page Layout</a></li><br>
+<li><a  style="color:darkred" href="#int "style="color:black;">Interview Quetions</a> </li>
+
+</ul>
+
+</td>
+
+<td width="55%" valign="top">
+
+<h2 id="intro">1. Introduction to Semantic HTML</h2>
+
+<h3>What is Semantic HTML?</h3>
+
+<p>
+Semantic HTML uses elements that clearly describe the meaning and purpose of the content they contain. These tags make web pages more meaningful, readable, and accessible.
+</p>
+
+<hr>
+
+<h2 id="why">2. Why are Semantic Elements Used?</h2>
+
+<ul>
+
+<li>Improve webpage structure.</li>
+
+<li>Make code easier to read and maintain.</li>
+
+<li>Improve accessibility for screen readers.</li>
+
+<li>Help search engines understand page content (SEO).</li>
+
+</ul>
+
+<h3>Advantages</h3>
+
+<ul>
+
+<li>Better code readability.</li>
+
+<li>Improved SEO.</li>
+
+<li>Better accessibility.</li>
+
+<li>Easier maintenance.</li>
+
+<li>Clear webpage structure.</li>
+
+</ul>
+
+<table border="1" style="border-collapse:collapse;">
+
+<thead bgcolor="lightskyblue">
+
+<tr>
+
+<th>Purpose</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tr>
+
+<td>Structure</td>
+
+<td>Creates a meaningful webpage layout.</td>
+
+</tr>
+
+<tr>
+
+<td>Readability</td>
+
+<td>Makes HTML easier to understand.</td>
+
+</tr>
+
+<tr>
+
+<td>Accessibility</td>
+<td>Helps screen readers understand content.</td>
+</tr>
+<tr>
+<td>SEO</td>
+<td>Improves search engine optimization.</td>
+</tr>
+</table>
+<hr>
+<h2 id="adv">3. Advantages of Semantic HTML</h2>
+<ul>
+<li>Improves SEO.</li>
+
+<li>Enhances accessibility.</li>
+
+<li>Makes code easier to understand.</li>
+
+<li>Simplifies maintenance.</li>
+
+<li>Provides a clear document structure.</li>
+
+<li>Improves compatibility with assistive technologies.</li>
+
+</ul>
+
+<table border="1" style="border-collapse:collapse;">
+
+<thead bgcolor="lightskyblue">
+
+<tr>
+
+<th>Advantage</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tr>
+
+<td>SEO</td>
+
+<td>Helps search engines understand webpages.</td>
+
+</tr>
+
+<tr>
+
+<td>Accessibility</td>
+
+<td>Supports assistive technologies.</td>
+
+</tr>
+
+<tr>
+
+<td>Readability</td>
+
+<td>Creates meaningful HTML code.</td>
+
+</tr>
+
+<tr>
+
+<td>Maintenance</td>
+
+<td>Makes webpages easier to update.</td>
+
+</tr>
+
+<tr>
+
+<td>Structure</td>
+
+<td>Provides a clear document structure.</td>
+
+</tr>
+
+</table>
+
+<hr>
+<h2 id="compare">4. Semantic vs Non-Semantic Elements</h2>
+
+<table border="1" style="border-collapse:collapse;">
+    <thead bgcolor="lightskyblue">
+        <tr>
+            <th>Semantic Elements</th>
+            <th>Non-Semantic Elements</th>
+        </tr>
+    </thead>
+
+    <tr>
+        <td>Clearly describe the content.</td>
+        <td>Do not describe the content.</td>
+    </tr>
+
+    <tr>
+        <td>Meaningful to browsers and developers.</td>
+        <td>Generic containers.</td>
+    </tr>
+
+    <tr>
+        <td>Improve SEO and accessibility.</td>
+        <td>Do not improve SEO directly.</td>
+    </tr>
+
+    <tr>
+        <td>&lt;header&gt;, &lt;nav&gt;, &lt;section&gt;</td>
+        <td>&lt;div&gt;, &lt;span&gt;</td>
+    </tr>
+
+</table>
+
+<hr>
+
+<h2 id="tags">5. Common Semantic HTML Tags</h2>
+
+<table border="1" style="border-collapse:collapse;">
+
+<thead bgcolor="lightskyblue">
+
+<tr>
+
+<th>Tag</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tr>
+<td>&lt;header&gt;</td>
+<td>Defines the introductory content or header of a page or section.</td>
+</tr>
+
+<tr>
+<td>&lt;nav&gt;</td>
+<td>Defines navigation links or menus.</td>
+</tr>
+
+<tr>
+<td>&lt;main&gt;</td>
+<td>Represents the main content of the webpage.</td>
+</tr>
+
+<tr>
+<td>&lt;section&gt;</td>
+<td>Groups related content into sections.</td>
+</tr>
+
+<tr>
+<td>&lt;article&gt;</td>
+<td>Represents independent, self-contained content.</td>
+</tr>
+
+<tr>
+<td>&lt;aside&gt;</td>
+<td>Contains side content such as advertisements or sidebars.</td>
+</tr>
+
+<tr>
+<td>&lt;footer&gt;</td>
+<td>Defines the footer of a page or section.</td>
+</tr>
+
+<tr>
+<td>&lt;figure&gt;</td>
+<td>Groups media content like images or diagrams.</td>
+</tr>
+
+<tr>
+<td>&lt;figcaption&gt;</td>
+<td>Provides a caption for a figure.</td>
+</tr>
+
+<tr>
+<td>&lt;details&gt;</td>
+<td>Creates expandable or collapsible content.</td>
+</tr>
+
+<tr>
+<td>&lt;summary&gt;</td>
+<td>Defines the visible heading for a details element.</td>
+</tr>
+
+<tr>
+<td>&lt;time&gt;</td>
+<td>Represents a date or time.</td>
+</tr>
+
+<tr>
+<td>&lt;mark&gt;</td>
+<td>Highlights important text.</td>
+</tr>
+
+</table>
+
+<hr>
+
+<h2 id="desc">6. Description of Semantic Elements</h2>
+
+<h3>&lt;header&gt;</h3>
+
+<p>
+Contains the page or section heading, logo, title, or introductory content.
+</p>
+
+<h3>&lt;nav&gt;</h3>
+
+<p>
+Contains navigation links such as menus.
+</p>
+
+<h3>&lt;main&gt;</h3>
+
+<p>
+Contains the primary content of the webpage. There should be only one
+&lt;main&gt; element per page.
+</p>
+<h3>&lt;section&gt;</h3>
+
+<p>
+Groups related content under a common theme.
+</p>
+
+<h3>&lt;article&gt;</h3>
+
+<p>
+Represents independent content that can stand on its own, such as a blog post, news article, or forum post.
+</p>
+
+<h3>&lt;aside&gt;</h3>
+
+<p>
+Contains related or supplementary content, such as advertisements, sidebars, or related links.
+</p>
+
+<h3>&lt;footer&gt;</h3>
+
+<p>
+Contains footer information like copyright, contact details, links, or author information.
+</p>
+
+<h3>&lt;figure&gt;</h3>
+
+<p>
+Groups media content such as images, diagrams, illustrations, or code snippets.
+</p>
+
+<h3>&lt;figcaption&gt;</h3>
+
+<p>
+Provides a caption or description for the <code>&lt;figure&gt;</code> element.
+</p>
+
+<h3>&lt;details&gt;</h3>
+
+<p>
+Creates expandable or collapsible content that users can open or close.
+</p>
+
+<h3>&lt;summary&gt;</h3>
+
+<p>
+Defines the visible heading or title for the <code>&lt;details&gt;</code> element.
+</p>
+
+<h3>&lt;time&gt;</h3>
+
+<p>
+Represents a date or time in a machine-readable format.
+</p>
+
+<h3>&lt;mark&gt;</h3>
+
+<p>
+Highlights or emphasizes important text.
+</p>
+
+<hr>
+<h2 id="app">7. Applications of Semantic HTML</h2>
+
+<ul>
+    <li>Website layouts</li>
+    <li>Blogs and articles</li>
+    <li>News websites</li>
+    <li>Documentation</li>
+    <li>E-learning platforms</li>
+    <li>Portfolio websites</li>
+    <li>Business websites</li>
+</ul>
+
+<hr>
+
+<h2 id="layout">8. Semantic Page Layout</h2>
+
+<p>
+A typical semantic webpage structure includes:
+</p>
+
+<table border="1" style="border-collapse:collapse;">
+
+    <thead bgcolor="lightskyblue">
+        <tr>
+            <th>Element</th>
+            <th>Purpose</th>
+        </tr>
+    </thead>
+
+    <tr>
+        <td>&lt;header&gt;</td>
+        <td>Page header</td>
+    </tr>
+
+    <tr>
+        <td>&lt;nav&gt;</td>
+        <td>Navigation menu</td>
+    </tr>
+
+    <tr>
+        <td>&lt;main&gt;</td>
+        <td>Main content</td>
+    </tr>
+
+    <tr>
+        <td>&lt;section&gt;</td>
+        <td>Content sections</td>
+    </tr>
+
+    <tr>
+        <td>&lt;article&gt;</td>
+        <td>Independent content</td>
+    </tr>
+
+    <tr>
+        <td>&lt;aside&gt;</td>
+        <td>Sidebar or related content</td>
+    </tr>
+
+    <tr>
+        <td>&lt;footer&gt;</td>
+        <td>Footer information</td>
+    </tr>
+
+
+</table>
+<hr>
+<h2 id="int"><font color="darkred">9. Interview Questions</font></h2>
+
+<h3><font color="darkblue">1. What are Semantic Elements in HTML?</font></h3>
+<p><b>Answer:</b> Semantic elements clearly describe the meaning and purpose of the content they contain.</p>
+
+<hr>
+
+<h3><font color="darkblue">2. What are the advantages of Semantic Elements?</font></h3>
+<p><b>Answer:</b> They improve readability, accessibility, SEO, and make web pages easier to maintain.</p>
+
+<hr>
+
+<h3><font color="darkblue">3. What is the purpose of the &lt;header&gt; tag?</font></h3>
+<p><b>Answer:</b> The <b>&lt;header&gt;</b> tag defines the introductory content or header of a webpage or section.</p>
+
+<hr>
+
+<h3><font color="darkblue">4. What is the purpose of the &lt;nav&gt; tag?</font></h3>
+<p><b>Answer:</b> The <b>&lt;nav&gt;</b> tag defines a section containing navigation links.</p>
+
+<hr>
+
+<h3><font color="darkblue">5. What is the purpose of the &lt;main&gt; tag?</font></h3>
+<p><b>Answer:</b> The <b>&lt;main&gt;</b> tag represents the main content of a webpage.</p>
+
+<hr>
+
+<h3><font color="darkblue">6. What is the purpose of the &lt;section&gt; tag?</font></h3>
+<p><b>Answer:</b> The <b>&lt;section&gt;</b> tag defines a thematic section of related content.</p>
+
+<hr>
+
+<h3><font color="darkblue">7. What is the purpose of the &lt;article&gt; tag?</font></h3>
+<p><b>Answer:</b> The <b>&lt;article&gt;</b> tag represents independent, self-contained content.</p>
+
+<hr>
+
+<h3><font color="darkblue">8. What is the purpose of the &lt;aside&gt; tag?</font></h3>
+<p><b>Answer:</b> The <b>&lt;aside&gt;</b> tag contains content that is related to the main content, such as sidebars.</p>
+
+<hr>
+
+<h3><font color="darkblue">9. What is the purpose of the &lt;footer&gt; tag?</font></h3>
+<p><b>Answer:</b> The <b>&lt;footer&gt;</b> tag defines the footer section of a webpage or document.</p>
+
+<hr>
+
+<h3><font color="darkblue">10. What is the purpose of the &lt;figure&gt; tag?</font></h3>
+<p><b>Answer:</b> The <b>&lt;figure&gt;</b> tag groups images, diagrams, or illustrations with optional captions.</p>
+
+<hr>
+
+<h3><font color="darkblue">11. What is the purpose of the &lt;figcaption&gt; tag?</font></h3>
+<p><b>Answer:</b> The <b>&lt;figcaption&gt;</b> tag provides a caption for a <b>&lt;figure&gt;</b> element.</p>
+
+<hr>
+
+<h3><font color="darkblue">12. What is the difference between &lt;div&gt; and semantic elements?</font></h3>
+<p><b>Answer:</b> <b>&lt;div&gt;</b> has no specific meaning, while semantic elements clearly describe the purpose of the content.</p>
+
+<hr>
+
+<h3><font color="darkblue">13. Why are Semantic Elements important?</font></h3>
+<p><b>Answer:</b> They improve website structure, accessibility, and search engine optimization (SEO).</p>
+
+<hr>
+
+<h3><font color="darkblue">14. What is SEO?</font></h3>
+<p><b>Answer:</b> SEO (Search Engine Optimization) is the process of improving a website's visibility in search engine results.</p>
+
+<hr>
+
+<h3><font color="darkblue">15. Which HTML version introduced Semantic Elements?</font></h3>
+<p><b>Answer:</b> Semantic elements were introduced in HTML5.</p>
+
+<hr>
+
+<h3><font color="darkblue">16. Can a webpage have multiple &lt;section&gt; elements?</font></h3>
+<p><b>Answer:</b> Yes. A webpage can contain multiple <b>&lt;section&gt;</b> elements.</p>
+
+<hr>
+
+<h3><font color="darkblue">17. Can a webpage have multiple &lt;article&gt; elements?</font></h3>
+<p><b>Answer:</b> Yes. A webpage can have multiple independent <b>&lt;article&gt;</b> elements.</p>
+
+<hr>
+
+<h3><font color="darkblue">18. What is the purpose of the &lt;address&gt; tag?</font></h3>
+<p><b>Answer:</b> The <b>&lt;address&gt;</b> tag contains contact information for the author or organization.</p>
+
+<hr>
+
+<h3><font color="darkblue">19. Where are Semantic Elements commonly used?</font></h3>
+<p><b>Answer:</b> They are used in websites, blogs, news portals, e-commerce sites, and web applications.</p>
+
+<hr>
+
+<h3><font color="darkblue">20. What are the most commonly used Semantic Elements?</font></h3>
+<p><b>Answer:</b> <b>&lt;header&gt;</b>, <b>&lt;nav&gt;</b>, <b>&lt;main&gt;</b>, <b>&lt;section&gt;</b>, <b>&lt;article&gt;</b>, <b>&lt;aside&gt;</b>, <b>&lt;figure&gt;</b>, <b>&lt;figcaption&gt;</b>, and <b>&lt;footer&gt;</b>.</p>
+
+<hr>
+</table>
+
+<br><br>
+
+</td>
+
+</tr>
+
+</header>
+
+</body>
+
+</html>

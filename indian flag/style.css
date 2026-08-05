@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#87CEEB;
+}
+
+.flag{
+    width:420px;
+    height:240px;
+    border:2px solid #000;
+}
+
+.saffron{
+    height:80px;
+    background:#FF9933;
+}
+
+.white{
+    height:80px;
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.green{
+    height:80px;
+    background:#138808;
+}
+
+.chakra{
+    width:60px;
+    height:60px;
+    border:4px solid navy;
+    border-radius:50%;
+}

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+
+header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* BANNER SECTION */
+.banner {
+    position: relative;
+    margin-top: 70px; 
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6); 
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.banner-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.banner-text h1 span {
+    color: #FF9933;
+}
+
+.btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #FF9933, #138808);
+    color: white;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+main {
+    margin-top: 30px; 
+    padding: 20px;
+}
+
+p {
+    margin: 20px 0;
+    line-height: 1.8;
+}

@@ -1,0 +1,85 @@
+body {
+    background: #0a0a0a; /* Dark background like comics */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+    color: #ffcc00;
+}
+
+/* Cards container */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* HERO CARD - BOX MODEL */
+.hero-card {
+    width: 300px;                    /* CONTENT */
+    background: #1a1a1a;             
+    border: 3px solid #ffcc00;       /* BORDER */
+    border-radius: 20px;             
+    padding: 0;                      /* PADDING 0 endukante image full ga undali */
+    margin: 20px;                    /* MARGIN - cards madhya space */
+    box-shadow: 0 0 20px rgba(255, 204, 0, 0.3); /* Glow effect */
+    overflow: hidden; /* Image border radius kosam */
+    transition: 0.4s;
+}
+
+.hero-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px rgba(255, 204, 0, 0.6);
+}
+
+/* Image - Card top part */
+.hero-card img {
+    width: 100%;        /* Card width ki full */
+    height: 400px;      /* Fixed height */
+    object-fit: cover;  /* Image cut avvakunda fit avutundi */
+    border-bottom: 3px solid #ffcc00;
+}
+
+/* Text content area */
+.card-content {
+    padding: 20px;      /* PADDING - text ki border madhya space */
+}
+
+.card-content h2 {
+    margin: 0 0 10px 0;
+    color: #ffcc00;
+    font-size: 24px;
+}
+
+.card-content p {
+    margin: 0 0 15px 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+/* Button */
+.card-content button {
+    width: 100%;
+    padding: 12px;          /* Button padding */
+    background: #ffcc00;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-content button:hover {
+    background: #fff;
+}

@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<a>
+   <header>
+    <table align="center" border="0" style="border-collapse: collapse;" width="1300"  height="70">
+        <thead style="background-color: aqua;">
+            
+            <tr>
+                 <th><img style="width: 60px; height:60px;" src="../images/logo.jpg"></th>
+                <th colspan="2">HTML Learning Portal</th>
+                <th ><a href="index.html">Introduction</a></th>
+                <th ><a href="list.html">List</a> </th>
+                <th><a href="tables.html">Tables</a></th>
+                <th><a href="media.html">Media</a></th>
+                <th><a href="link.html">Links</a></th>
+                <th><a href="forms.html">Forms </a></th>
+                <th><a href="semantic.html">Semantic</a></th>
+                <th><a href="layout.html">Layout</a></th>
+            </tr>
+        </thead>
+        </table>  
+    <table style="background-color:cadetblue" border="0" width="1300px" height="730px">
+        <tr>
+        <td style="background-color:dimgray;" width="15%" valign="top">
+    <h1>LIST</h1>
+    <ul>
+        <li><a href="#html" style="color:black;">What are HTML Lists?</a></li><br>
+        <li><a href="#why" style="color:black;"  >Why are Lists Used?</a></li><br>
+        <li><a href="#types" style="color:black;"  >Types of HTML Lists</a></li><br>
+        <li><a href="#order" style="color:black;"> Ordered List </a></li><br>
+        <li><a href="#unorder" style="color:black;">Unordered List </a></li><br>
+        <li><a href="#des" style="color:black"> Description List </a></li><br>
+        <li><a href="#nes" style="color:black">Nested Lists</a></li><br>
+        <li><a href="#tags" style="color:black;">HTML List Tags  </a></li> <br>
+        <li><a href="#att" style="color:black;"> List Attributes</a></li><br>
+        <li><a href="#appli" style="color:black;">Applications of HTML Lists  </a></li><br>
+        <li><a href="#adv" style="color:black;">Advantages of HTML Lists </a></li><br>
+        <li><a  style="color:darkred" href="#int "style="color:black;">Interview Quetions</a> </li>
+        
+</td>
+<td width="55%" valign="top">
+<h2 id="html">1.What is HTML Lits?</h2>
+<p>HTML Lists are used to display related items in an organized manner. They improve the readability and structure of web pages.</p>
+<hr>
+
+<h2 id="why" >2.Why are Lists Used?</h2>
+
+<ul>
+<li>To organize information.</li>
+<li>To display items in a clear format.</li>
+<li>To improve user experience.</li>
+<li>To make content easier to read.</li>
+</ul>
+
+<h3>Advantages</h3>
+<ul>
+<li>Easy to understand.</li>
+<li>Improves webpage organization.</li>
+<li>Enhances readability.</li>
+<li>Supports nested structures.</li>
+</ul>
+<h2 id="types">3.Types of HTML Lists</h2>
+<p>HTML provides three main types of lists</p>
+<ol>
+
+<li> Ordered List :Displays items in a numbered or alphabetical sequence.</li>
+
+<h3>Example Uses:</h3>
+<ul>
+<li>Instructions</li>
+<li>Recipes</li>
+<li>Exam rankings</li>
+<li>Step-by-step guides</li>
+</ul>
+
+<li>Unordered List :Displays items with bullets instead of numbers.
+
+<h3>Example Uses:</h3>
+<ul>
+<li>Navigation menus</li>
+<li>Product features</li>
+<li>Shopping lists</li>
+<li>Categories</li>
+</ul></li>
+
+<li>Description List :Displays terms with their descriptions.
+<h3>Example Uses:</h3>
+<ul>
+<li>Glossaries</li>
+<li>FAQs</li>
+<li>Definitions</li>
+<li>Product specifications</li>
+</ul></li> 
+<li> Nested List:A list placed inside another list.
+<h3>Example Uses:</h3>
+<ul>
+<li>Website menus</li>
+<li>Categories and subcategories</li>
+<li>Folder structures</li>
+</ul></li>
+</ol>
+<hr>
+<h2 id="order">4.Ordered List</h2>
+<h3>Definition</h3>
+
+<p>An Ordered List displays items in a specific sequence using numbers, letters, or Roman numerals.</p>
+
+<h3>Features</h3>
+<ul>
+<li>Items appear in order.</li>
+<li>Automatically numbers each item.</li>
+<li>Supports nesting.</li>
+<li>Can start from any number.</li>
+</ul>
+<h3>Example Uses</h3>
+<ul>
+<li>Procedures</li>
+<li>Instructions</li>
+<li>Rankings</li>
+<li>Timelines</li>
+</ul>
+<h3>Attributes</h3>
+<table border="1" style="border-collapse: collapse;">
+    <thead bgcolor="lightskyblue">
+        <tr>
+            <th>Attribute</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+
+    <tr>
+        <td>type</td>
+        <td>Specifies the numbering style (1, A, a, I, i)</td>
+    </tr>
+    <tr>
+        <td>start</td>
+        <td>Specifies the starting number of the list</td>
+    </tr>
+    <tr>
+        <td>reversed</td>
+        <td>Displays the list in descending order</td>
+    </tr>
+</table>
+<h3>Ordered List type Attribute Values </h3>
+<table border="1" style="border-collapse: collapse;">
+    <thead bgcolor="lightskyblue">
+        <tr>
+            <th>Value</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+
+    <tr>
+        <td>1</td>
+        <td>Numbers (1, 2, 3...)</td>
+    </tr>
+    <tr>
+        <td>A</td>
+        <td>Uppercase letters (A, B, C...)</td>
+    </tr>
+    <tr>
+        <td>a</td>
+        <td>Lowercase letters (a, b, c...)</td>
+    </tr>
+    <tr>
+        <td>I</td>
+        <td>Uppercase Roman numerals (I, II, III...)</td>
+    </tr>
+    <tr>
+        <td>i</td>
+        <td>Lowercase Roman numerals (i, ii, iii...)</td>
+    </tr>
+</table>
+<hr>
+<h2 id="unorder">5. Unordered List</h2>
+<h3>Definition</h3>
+An Unordered List displays items using bullet symbols.
+<h3>Features</h3>
+<ul>
+<li>No specific order.</li>
+<li>Uses bullets.</li>
+<li>Easy to read.</li>
+<li>Supports nested lists.</li>
+</ul>
+<h3>Example Uses</h3>
+<ul>
+<li>Menus</li>
+<li>Feature lists</li>
+<li>Categories</li>
+<li>Navigation</li>
+</ul>
+<h3>Attributes</h3>
+<table border="1" style="border-collapse: collapse;">
+    <thead bgcolor="lightskyblue">
+        <tr>
+            <th>Attribute</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+
+    <tr>
+        <td>type</td>
+        <td>Specifies the bullet style (disc, circle, square) <br><b>Note:</b> Obsolete in HTML5. Use CSS <code>list-style-type</code> instead.</td>
+    </tr>
+</table>
+<h3>Unrdered List type Attribute Values </h3>
+<table border="1" style="border-collapse: collapse;">
+    <thead bgcolor="lightskyblue">
+        <tr>
+            <th>Value</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+
+    <tr>
+        <td>disc</td>
+        <td>Default filled circle bullet</td>
+    </tr>
+    <tr>
+        <td>circle</td>
+        <td>Hollow circle bullet</td>
+    </tr>
+    <tr>
+        <td>square</td>
+        <td>Square bullet</td>
+    </tr>
+</table>
+<h3>Attribute</h3>
+
+
+<hr>
+<h2 id="des">6.Description List</h2>
+<h3>Definition</h3>
+
+A Description List is used to display a term and its explanation.
+
+<h3>Example Uses</h3>
+<ul>
+<li>Dictionaries</li>
+<li>Glossaries</li>
+<li>FAQs</li>
+<li>Technical documentation</li>
+<li>Product descriptions</li>
+</ul>
+
+<h3>Description List Tags</h3>
+<table border="1" style="border-collapse: collapse;">
+    <thead bgcolor="lightskyblue">
+        <tr>
+            <th>Tag</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+
+    <tr>
+        <td>&lt;dl&gt;</td>
+        <td>Defines a description list</td>
+    </tr>
+    <tr>
+        <td>&lt;dt&gt;</td>
+        <td>Defines the term or title</td>
+    </tr>
+    <tr>
+        <td>&lt;dd&gt;</td>
+        <td>Defines the description of the term</td>
+    </tr>
+</table>
+
+<hr>
+<h2 id="nes">7. Nested Lists</h2>
+<h3>Definition</h3>
+A Nested List is a list placed inside another list.
+<h3>Types</h3>
+<ul>
+<li>Ordered inside Ordered</li>
+<li>Ordered inside Unordered</li>
+<li>Unordered inside Ordered</li>
+<li>Unordered inside Unordered</li>
+</ul>
+ <h3>Example Uses</h3>
+ <ul>
+<li>Navigation menus</li>
+<li>Categories</li>
+<li>Folder hierarchy</li>
+<li>Course modules</li>
+</ul>
+<hr>
+
+<h2 id="tags">8. HTML List Tags</h2>
+<img style="width:500px; height:300px" src="https://image1.slideserve.com/2712471/html-list-tags-l.jpg">
+<hr>
+
+
+<h2 id="att">9. List Attributes</h2>
+<table border="1" style="border-collapse: collapse;">
+    <thead bgcolor="lightskyblue">
+        <tr>
+            <th>Attribute</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+
+    <tr>
+        <td>type</td>
+        <td>Specifies the numbering or bullet style of the list</td>
+    </tr>
+    <tr>
+        <td>start</td>
+        <td>Specifies the starting number for an ordered list</td>
+    </tr>
+    <tr>
+        <td>reversed</td>
+        <td>Displays the ordered list in descending order</td>
+    </tr>
+    <tr>
+        <td>value</td>
+        <td>Specifies the numbering value for a list item</td>
+    </tr>
+</table>
+<hr>
+
+
+
+
+<h2 id="appli">10. Applications of HTML Lists</h2>
+<ul>
+<li>Creating navigation menus</li>
+<li>Displaying step-by-step instructions</li>
+<li>Organizing categories</li>
+<li>Showing FAQs</li>
+<li>Displaying product features</li>
+<li>Creating documentation</li>
+<li>Displaying course modules</li>
+<li>Building table of contents</li>
+</ul>
+<h2 id="adv">11. Advantages of HTML Lists</h2>
+<ul>
+<li>Organize content effectively.</li>
+<li>Improve readability.</li>
+<li>Make information easier to understand.</li>
+<li>Enhance webpage structure.</li>
+<li>Support nested content.</li>
+<li>Improve accessibility.</li>
+<li>Help users scan content quickly.</li>
+</ul>
+<hr>
+
+<h2 id="int"><font color="darkred">12.Interview Questions</font></h2>
+
+<h3><font color="darkblue">1. What is an HTML List?</font></h3>
+<p><b>Answer:</b> An HTML list is used to group related items in a structured format.</p>
+
+<hr>
+
+<h3><font color="darkblue">2. How many types of lists are available in HTML?</font></h3>
+<p><b>Answer:</b> There are three types of lists: Ordered List, Unordered List, and Description List.</p>
+
+<hr>
+
+<h3><font color="darkblue">3. Which tag is used to create an ordered list?</font></h3>
+<p><b>Answer:</b> The <b>&lt;ol&gt;</b> tag is used to create an ordered list.</p>
+
+<hr>
+
+<h3><font color="darkblue">4. Which tag is used to create an unordered list?</font></h3>
+<p><b>Answer:</b> The <b>&lt;ul&gt;</b> tag is used to create an unordered list.</p>
+
+<hr>
+
+<h3><font color="darkblue">5. Which tag is used to create a list item?</font></h3>
+<p><b>Answer:</b> The <b>&lt;li&gt;</b> tag is used to define a list item.</p>
+
+<hr>
+
+<h3><font color="darkblue">6. What is a Description List?</font></h3>
+<p><b>Answer:</b> A Description List is used to display terms and their descriptions using <b>&lt;dl&gt;</b>, <b>&lt;dt&gt;</b>, and <b>&lt;dd&gt;</b>.</p>
+
+<hr>
+
+<h3><font color="darkblue">7. Which tags are used in a Description List?</font></h3>
+<p><b>Answer:</b> The tags are <b>&lt;dl&gt;</b>, <b>&lt;dt&gt;</b>, and <b>&lt;dd&gt;</b>.</p>
+
+<hr>
+
+<h3><font color="darkblue">8. What is the difference between &lt;ol&gt; and &lt;ul&gt;?</font></h3>
+<p><b>Answer:</b> <b>&lt;ol&gt;</b> displays numbered items, while <b>&lt;ul&gt;</b> displays bulleted items.</p>
+
+<hr>
+
+<h3><font color="darkblue">9. What is a Nested List?</font></h3>
+<p><b>Answer:</b> A Nested List is a list placed inside another list.</p>
+
+<hr>
+
+<h3><font color="darkblue">10. What is the purpose of the <b>type</b> attribute in &lt;ol&gt;?</font></h3>
+<p><b>Answer:</b> It changes the numbering style, such as numbers, letters, or Roman numerals.</p>
+
+<hr>
+
+<h3><font color="darkblue">11. What is the purpose of the <b>start</b> attribute?</font></h3>
+<p><b>Answer:</b> It starts an ordered list from a specified number.</p>
+
+<hr>
+
+<h3><font color="darkblue">12. What is the purpose of the <b>reversed</b> attribute?</font></h3>
+<p><b>Answer:</b> It displays the ordered list in reverse order.</p>
+
+<hr>
+
+<h3><font color="darkblue">13. What is the purpose of the <b>value</b> attribute in &lt;li&gt;?</font></h3>
+<p><b>Answer:</b> It sets a custom number for a list item in an ordered list.</p>
+
+<hr>
+
+<h3><font color="darkblue">14. What are the bullet styles available in an unordered list?</font></h3>
+<p><b>Answer:</b> Disc, Circle, Square, and None (using CSS).</p>
+
+<hr>
+
+<h3><font color="darkblue">15. Is the <b>type</b> attribute of &lt;ul&gt; supported in HTML5?</font></h3>
+<p><b>Answer:</b> No. It is deprecated in HTML5. CSS <b>list-style-type</b> should be used instead.</p>
+
+<hr>
+
+<h3><font color="darkblue">16. Where are HTML lists commonly used?</font></h3>
+<p><b>Answer:</b> HTML lists are used in navigation menus, instructions, FAQs, categories, and documentation.</p>
+
+<hr>
+
+<h3><font color="darkblue">17. What are the advantages of HTML Lists?</font></h3>
+<p><b>Answer:</b> They organize content, improve readability, and make information easy to understand.</p>
+
+<hr>
+
+<h3><font color="darkblue">18. Can we create a list inside another list?</font></h3>
+<p><b>Answer:</b> Yes. This is called a Nested List.</p>
+
+<hr>
+
+<h3><font color="darkblue">19. Which list is used for definitions or glossaries?</font></h3>
+<p><b>Answer:</b> The Description List (<b>&lt;dl&gt;</b>) is used for definitions and glossaries.</p>
+
+<hr>
+
+<h3><font color="darkblue">20. Which list is best for displaying step-by-step instructions?</font></h3>
+<p><b>Answer:</b> The Ordered List (<b>&lt;ol&gt;</b>) is best for displaying numbered steps or instructions.</p>
+
+<hr>
+
+</header>
+</td>
+</tr>
+</table>
+</body>
+</html>

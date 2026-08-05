@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+   <header>
+    <table align="center" border="0" style="border-collapse: collapse;" width="1300"  height="70">
+        <thead style="background-color:aqua;">
+            <tr>
+                <th><img style="width: 60px; height:60px;" src="../images/logo.jpg"></th>
+                <th colspan="2">HTML Learning Portal</th>
+                <th ><a href="Index.html">Introduction</a></th>
+                <th ><a href="list.html">List</a> </th>
+                <th><a href="tables.html">Tables</a></th>
+                <th><a href="media.html">Media</a></th>
+                <th><a href="link.html">Links</a></th>
+                <th><a href="forms.html">Forms</th>
+                <th><a href="semantic.html">Semantic</a></th>
+                <th><a href="layout.html">Layout</a></th>
+               
+            </tr>
+        </thead>
+        </table>
+    <table style="background-color:cadetblue" border="0" width="1300px" height="730px">
+        <tr>
+       <td width="15%" valign="top" style="background-color:dimgray;">
+
+    <h1>INTRODUCTION</h1>
+    <ul>
+        <li><a href="#html" style="color:black;">What is HTML</a></li><br>
+        <li><a href="#history" style="color:black;"  >History of HTML</a></li><br>
+        <li><a href="#Versions" style="color:black;"  >HTML Versions</a></li><br>
+        <li><a href="#Basics" style="color:black;">HTML Document Structure</a></li><br>
+        <li><a href="#Why " style="color:black;">Why HTML is Used</a></li><br>
+        <li><a href="#tags" style="color:black"> HTML Tags</a></li><br>
+        <li><a href="#att" style="color:black">HTML Attributes</a></li><br>
+        <li><a href="#elements" style="color:black;"> HTML Elelements  </a></li> <br>
+        <li><a href="#appli" style="color:black;">HTMl Applications  </a></li><br>
+        <li><a  style="color:darkred" href="#int "style="color:black;" >Interview Quetions</a> </li>
+    </td>
+    
+<td width="55%" valign="top">
+<h2 id="html">1.What is HTML?</h2>
+
+<p>HTML (HyperText Markup Language) is the standard markup language used to create and structure web pages. It uses tags to define elements such as headings, paragraphs, images, tables, forms, links, audio, and videos. Web browsers read HTML code and display the content on the screen.</p><br>
+<h2>Features of HTML</h2>
+<ul>
+<li>Easy to learn and use.</li>
+<li>Platform-independent (works on all operating systems).</li>
+<li> Supported by all modern web browsers.</li>
+<li>Allows embedding of images, audio, videos, and links.</li>
+<li> Supports forms for collecting user input.</li>
+<li>Works with CSS for styling and JavaScript for interactivity.</li>
+</ul>
+<hr>
+
+<h2 id="history">2.History of HTML</h2>
+<ul>
+<li>1991:HTML was created by **Tim Berners-Lee.</li>
+<li>1995:HTML 2.0 became the first official HTML standard.</li>
+<li>1997:HTML 3.2 introduced support for tables, applets, and scripting.</li>
+<li>1999: HTML 4.01 added improved support for style sheets, scripting, and accessibility.</li>
+<li>2014:HTML5 became the official recommendation with support for multimedia, semantic elements, and modern web applications.</li>
+<li>Present: HTML5 is the latest and most widely used version of HTML.</li>
+</ul>
+<hr>
+
+<h2 id="Versions">3.HTML Versions</h2>
+<img style="width:500px; height:250px" src ="../images/html versions.png">
+
+<hr>
+<h2 id="Basics"> 4.HTML Document Structure</h2>
+<img style="width:500px; height:250px; " src="../images/Str.jpg" >
+
+<h3> Importance of HTML Basics</h3>
+<ul>
+<li>Provides the structure of a webpage.</li>
+<li>Organizes content in a meaningful way.</li>
+<li>Helps browsers display web pages correctly.</li>
+<li>Forms the foundation of web development.</li>
+</ul>
+<hr>
+<h2 id="Why">5.Why HTML is Used</h2>
+<ul>
+<li>HTML is used to create and structure web pages.</li>
+<li>It organizes content such as headings, paragraphs, images, tables, forms, audio, and videos.</li>
+<li>HTML helps browsers understand how content should be displayed.</li>
+<li>It is the foundation of web development and works with CSS and JavaScript.</li>
+</ul>
+
+<hr>
+<h2 id="tags">6.HTML Tags</h2>
+<p>HTML tags are predefined keywords enclosed in angle brackets (`< >`) that define different parts of a webpage, such as headings, paragraphs, images, tables, and forms.</p><br>
+<table border="1" style="border-collapse: collapse;">
+    <thead bgcolor="lightskyblue">
+        <tr>
+            <th>Tag</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+
+    <tr>
+        <td>&lt;html&gt;</td>
+        <td>Defines the root of an HTML document</td>
+    </tr>
+    <tr>
+        <td>&lt;head&gt;</td>
+        <td>Contains metadata about the document</td>
+    </tr>
+    <tr>
+        <td>&lt;title&gt;</td>
+        <td>Specifies the title of the webpage</td>
+    </tr>
+    <tr>
+        <td>&lt;body&gt;</td>
+        <td>Contains the visible content of the webpage</td>
+    </tr>
+    <tr>
+        <td>&lt;h1&gt; - &lt;h6&gt;</td>
+        <td>Defines headings from largest to smallest</td>
+    </tr>
+    <tr>
+        <td>&lt;p&gt;</td>
+        <td>Defines a paragraph</td>
+    </tr>
+    <tr>
+        <td>&lt;br&gt;</td>
+        <td>Inserts a line break</td>
+    </tr>
+    <tr>
+        <td>&lt;hr&gt;</td>
+        <td>Creates a horizontal line</td>
+    </tr>
+    <tr>
+        <td>&lt;div&gt;</td>
+        <td>Defines a block-level container</td>
+    </tr>
+    <tr>
+        <td>&lt;span&gt;</td>
+        <td>Defines an inline container</td>
+    </tr>
+</table>
+<hr>
+<h2 id="att">7. HTML Attributes</h2>
+<h3>What are HTML Attributes?</h3>
+HTML attributes provide additional information about HTML elements. They are written inside the opening tag and modify the behavior, appearance, or properties of an element.
+<h3>Global Attributes</h3>
+Global attributes are attributes that can be used with **almost all HTML elements**. They help identify, style, and control elements on a webpage.
+<h3>Common HTML Attributes</h3>
+<ol>
+ <li>id: Provides a unique identifier for an HTML element.<br>
+* Each `id` value should be unique within a webpage.</li>
+
+<li>class :Assigns one or more class names to an element.<br>
+* Used to group multiple elements with the same name.</li>
+
+<li>style: Adds inline CSS styles directly to an HTML element.</li>
+
+<li>title: Displays additional information as a tooltip when the mouse pointer is placed over an element.</li>
+
+<li>lang: Specifies the language of the content in an HTML document or element.</li>
+
+<li>dir: Defines the text direction of the content.<br>
+* Common values are `ltr` (left-to-right) and `rtl` (right-to-left).</li>
+
+<li>hidden:Hides an HTML element so it is not displayed on the webpage.</li>
+
+<li>tabindex:Specifies the order in which elements receive focus when the **Tab** key is pressed.</li>
+</ol>
+<h3> Importance of HTML Attributes</h3>
+<ul>
+    <li> Add extra information to HTML elements.</li>
+ <li> Improve accessibility and usability.</li>
+ <li>Help identify and organize elements.</li>
+ <li>Control the behavior and presentation of webpage content.</li>
+</ul>
+
+<hr>
+<h2 id="elements">8. HTML Elements</h2>
+<h3>What is an HTML Element?<h3></h3>
+<p>An HTML element is the complete structure consisting of a **start tag**, **content**, and an **end tag**. Elements define the structure and content of a web page.</p>
+<h3>Structure of an HTML Element</h3> 
+<ol>
+<li>Opening Tag:Marks the beginning of an element.</li>
+<li>Content:The text or other elements inside the tags.</li>
+<li>Closing Tag:Marks the end of the element.</li>
+</ol>
+
+<h3>Importance of HTML Elements</h3>
+<ul>
+<li>Define the structure of a webpage.</li>
+<li>Organize content into meaningful sections.</li>
+<li>Help browsers display content correctly.</li>
+<li> Improve readability and maintainability of web pages.</li>
+</ul>
+<hr>
+<h2 id="appli">9.HTML Applications </h2>
+<ul>
+<li>Designing and developing websites.</li>
+<li>Creating web applications.</li>
+<li>Building online forms and registration pages.</li>
+<li>Displaying images, audio, and video content.</li>
+<li>Creating educational and documentation websites.</li>
+<li>Developing e-commerce pages and business websites.</li>
+<li>Structuring content for blogs and news portals.</li>
+</ul>
+<hr>
+
+<h2 id="int"><font color="darkred">10. Interview Questions</font></h2>
+
+<h3><font color="darkblue">1. What is HTML?</font></h3>
+<p><b>Answer:</b> HTML (HyperText Markup Language) is the standard markup language used to create and structure web pages.</p>
+
+<hr>
+
+<h3><font color="darkblue">2. What does HTML stand for?</font></h3>
+<p><b>Answer:</b> HTML stands for <b>HyperText Markup Language</b>.</p>
+
+<hr>
+
+<h3><font color="darkblue">3. Is HTML a programming language?</font></h3>
+<p><b>Answer:</b> No. HTML is a markup language used to structure web pages. It does not perform programming logic.</p>
+
+<hr>
+
+<h3><font color="darkblue">4. Who developed HTML?</font></h3>
+<p><b>Answer:</b> HTML was developed by <b>Tim Berners-Lee</b> in 1991.</p>
+
+<hr>
+
+<h3><font color="darkblue">5. What is the latest version of HTML?</font></h3>
+<p><b>Answer:</b> HTML5 is the latest version of HTML.</p>
+
+<hr>
+
+<h3><font color="darkblue">6. What is a Web Page?</font></h3>
+<p><b>Answer:</b> A web page is a single HTML document displayed in a web browser.</p>
+
+<hr>
+
+<h3><font color="darkblue">7. What is a Website?</font></h3>
+<p><b>Answer:</b> A website is a collection of related web pages connected through hyperlinks.</p>
+
+<hr>
+
+<h3><font color="darkblue">8. What is a Web Browser?</font></h3>
+<p><b>Answer:</b> A web browser is software used to access and display web pages.</p>
+
+<hr>
+
+<h3><font color="darkblue">9. What is a Web Server?</font></h3>
+<p><b>Answer:</b> A web server stores website files and delivers them to users over the Internet.</p>
+
+<hr>
+
+<h3><font color="darkblue">10. What are HTML Tags?</font></h3>
+<p><b>Answer:</b> HTML tags are predefined keywords enclosed in angle brackets that define webpage elements.</p>
+
+<hr>
+
+<h3><font color="darkblue">11. What are HTML Elements?</font></h3>
+<p><b>Answer:</b> An HTML element consists of a start tag, content, and an end tag.</p>
+
+<hr>
+
+<h3><font color="darkblue">12. What are HTML Attributes?</font></h3>
+<p><b>Answer:</b> HTML attributes provide additional information about HTML elements and are written inside the opening tag.</p>
+
+<hr>
+
+<h3><font color="darkblue">13. What is the purpose of &lt;!DOCTYPE html&gt;?</font></h3>
+<p><b>Answer:</b> It tells the browser that the document follows the HTML5 standard.</p>
+
+<hr>
+
+<h3><font color="darkblue">14. What is the basic structure of an HTML document?</font></h3>
+<p><b>Answer:</b> The basic structure includes <b>&lt;!DOCTYPE html&gt;</b>, <b>&lt;html&gt;</b>, <b>&lt;head&gt;</b>, <b>&lt;title&gt;</b>, and <b>&lt;body&gt;</b>.</p>
+
+<hr>
+
+<h3><font color="darkblue">15. What is the difference between HTML and HTML5?</font></h3>
+<p><b>Answer:</b> HTML5 supports multimedia, semantic elements, local storage, and modern web features, while older HTML versions have limited capabilities.</p>
+
+<hr>
+
+<h3><font color="darkblue">16. What is the purpose of the &lt;head&gt; tag?</font></h3>
+<p><b>Answer:</b> The <b>&lt;head&gt;</b> tag contains metadata such as the page title, character encoding, CSS links, and JavaScript files.</p>
+
+<hr>
+
+<h3><font color="darkblue">17. What is the purpose of the &lt;body&gt; tag?</font></h3>
+<p><b>Answer:</b> The <b>&lt;body&gt;</b> tag contains all the visible content displayed in the browser, such as text, images, tables, and forms.</p>
+
+<hr>
+
+<h3><font color="darkblue">18. What is the difference between HTML tags and HTML elements?</font></h3>
+<p><b>Answer:</b> A tag is the markup enclosed in angle brackets (e.g., &lt;p&gt;), whereas an element includes the start tag, content, and end tag.</p>
+
+<hr>
+
+<h3><font color="darkblue">19. Why is HTML important?</font></h3>
+<p><b>Answer:</b> HTML is the foundation of web development. It structures web pages and works together with CSS for styling and JavaScript for interactivity.</p>
+
+<hr>
+
+<h3><font color="darkblue">20. Can HTML create dynamic webpages?</font></h3>
+<p><b>Answer:</b> No. HTML creates the structure of a webpage. Dynamic behavior and interactivity are added using JavaScript, while CSS is used for styling.</p>
+
+<hr>
+
+
+</header>
+</td>
+</tr>
+</table>
+
+</html>

@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+    <table align="center" border="0" style="border-collapse: collapse;" width="1300"  height="70">
+        <thead style="background-color: aqua;">
+            
+            <tr>
+                <th><img style="width: 60px; height:60px;" src="../images/logo.jpg"></th>
+                <th colspan="2">HTML Learning Portal</th>
+                <th ><a href="Index.html">Introduction</a></th>
+                <th ><a href="list.html">List</a> </th>
+                <th><a href="tables.html">Tables</a></th>
+                <th><a href="media.html">Media</a></th>
+                <th><a href="link.html">Links</a></th>
+                <th><a href="forms.html">Forms</th>
+                <th><a href="semantic.html">Semantic</a></th>
+                <th><a href="layout.html">Layout</a></th>
+               
+            
+            </tr>
+        </thead>
+          </table>  
+    <table style="background-color:cadetblue" border="0" width="1300px" height="730px">
+        <tr>
+        <td style="background-color:dimgray;" width="15%" valign="top">
+       
+      <h1>FORMS</h1>
+    <ul>
+        <li><a href="#html" style="color:black;">What is HTML Form</a></li><br>
+        <li><a href="#str" style="color:black;"  >Form Structure</a></li><br>
+        <li><a href="#tags" style="color:black;"  > HTML Form Tags</a></li><br>
+        <li><a href="#types" style="color:black;"  >Common input Types </a></li><br>
+        <li><a href="#Why " style="color:black;">Form Attributes</a></li><br>
+        <li><a href="#att" style="color:black"> Common Input Attributes</a></li><br>
+        <li><a href="#get" style="color:black;">GET vs POST</a></li><br>
+        <li><a href="#vali" style="color:black;">Form Validation</a></li><br>
+        <li><a href="#appli" style="color:black;">Applications of HTML Forms  </a></li><br>
+        <li><a href="#adv" style="color:black;"> Advantages of HTML Forms</a></li> <br>
+        <li><a style="color:darkred" href="#int "style="color:black;">Interview Quetions</a> </li>
+    </td>
+    <td width="55%" valign="top">
+<h2 id="html">1.What is HTML Form?</h2>
+An HTML Form is used to collect user input and send it to a server for processing. Forms are commonly used for login pages, registration, search, feedback, and contact forms.
+
+<h3>Why are Forms Used?</h3>
+<ul>
+<li>Collect user information.</li>
+<li>Submit data to a server.</li>
+<li>Perform user authentication.</li>
+<li>Enable user interaction with websites.</li>
+</ul>
+<h3>Advantages</h3>
+<ul>
+<li>Easy to collect data.</li>
+<li>Supports different input types.</li>
+<li>Enables client-side validation.</li>
+<li>Improves user interaction.</li>
+</ul>
+<hr>
+<h2 id="str">2.Form Structure</h2> 
+An HTML form consists of:
+<ul>
+<li>Form</li>
+<li>Labels</li>
+<li>Input fields</li>
+<li>Buttons</li>
+<li>Selection controls</li>
+<li>Validation attributes</li>
+</ul>
+<hr>
+<h2 id="tags">3.HTML Form Tags</h2>
+<table border="1" style="border-collapse: collapse;">
+    <thead bgcolor="lightskyblue">
+        <tr>
+            <th>Tag</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+
+    <tr>
+        <td>&lt;form&gt;</td>
+        <td>Creates an HTML form</td>
+    </tr>
+    <tr>
+        <td>&lt;input&gt;</td>
+        <td>Creates an input field</td>
+    </tr>
+    <tr>
+        <td>&lt;label&gt;</td>
+        <td>Defines a label for an input field</td>
+    </tr>
+    <tr>
+        <td>&lt;textarea&gt;</td>
+        <td>Creates a multi-line text input</td>
+    </tr>
+    <tr>
+        <td>&lt;select&gt;</td>
+        <td>Creates a drop-down list</td>
+    </tr>
+    <tr>
+        <td>&lt;option&gt;</td>
+        <td>Defines an option in a drop-down list</td>
+    </tr>
+    <tr>
+        <td>&lt;optgroup&gt;</td>
+        <td>Groups related options in a drop-down list</td>
+    </tr>
+    <tr>
+        <td>&lt;button&gt;</td>
+        <td>Creates a clickable button</td>
+    </tr>
+    <tr>
+        <td>&lt;fieldset&gt;</td>
+        <td>Groups related form elements</td>
+    </tr>
+    <tr>
+        <td>&lt;legend&gt;</td>
+        <td>Defines a caption for a fieldset</td>
+    </tr>
+    <tr>
+        <td>&lt;datalist&gt;</td>
+        <td>Provides predefined suggestions for an input</td>
+    </tr>
+    <tr>
+        <td>&lt;output&gt;</td>
+        <td>Displays the result of a calculation</td>
+    </tr>
+</table>
+<hr>
+<h2 id="types">4.Common input Types</h2>
+<table border="1" style="border-collapse: collapse;">
+    <thead bgcolor="lightskyblue">
+        <tr>
+            <th>Input Type</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+
+    <tr>
+        <td>text</td>
+        <td>Single-line text input</td>
+    </tr>
+    <tr>
+        <td>password</td>
+        <td>Hidden text for passwords</td>
+    </tr>
+    <tr>
+        <td>email</td>
+        <td>Accepts a valid email address</td>
+    </tr>
+    <tr>
+        <td>number</td>
+        <td>Accepts numeric values</td>
+    </tr>
+    <tr>
+        <td>tel</td>
+        <td>Accepts a telephone number</td>
+    </tr>
+    <tr>
+        <td>url</td>
+        <td>Accepts a website URL</td>
+    </tr>
+    <tr>
+        <td>search</td>
+        <td>Search input field</td>
+    </tr>
+    <tr>
+        <td>date</td>
+        <td>Selects a date</td>
+    </tr>
+    <tr>
+        <td>time</td>
+        <td>Selects a time</td>
+    </tr>
+    <tr>
+        <td>datetime-local</td>
+        <td>Selects both date and time</td>
+    </tr>
+    <tr>
+        <td>month</td>
+        <td>Selects a month and year</td>
+    </tr>
+    <tr>
+        <td>week</td>
+        <td>Selects a week and year</td>
+    </tr>
+    <tr>
+        <td>color</td>
+        <td>Selects a color</td>
+    </tr>
+    <tr>
+        <td>range</td>
+        <td>Selects a value using a slider</td>
+    </tr>
+    <tr>
+        <td>checkbox</td>
+        <td>Selects one or more options</td>
+    </tr>
+    <tr>
+        <td>radio</td>
+        <td>Selects one option from a group</td>
+    </tr>
+    <tr>
+        <td>file</td>
+        <td>Uploads a file</td>
+    </tr>
+    <tr>
+        <td>hidden</td>
+        <td>Stores hidden data</td>
+    </tr>
+    <tr>
+        <td>image</td>
+        <td>Displays an image as a submit button</td>
+    </tr>
+    <tr>
+        <td>submit</td>
+        <td>Submits the form</td>
+    </tr>
+    <tr>
+        <td>reset</td>
+        <td>Resets all form fields</td>
+    </tr>
+    <tr>
+        <td>button</td>
+        <td>Creates a clickable button</td>
+    </tr>
+</table>
+
+<hr>
+<h2 id="why ">5.Form Attributes</h2>
+<table  border ="1" style="border-collapse: collapse;">
+               <thead bgcolor="lightskyblue">
+                <th>Attribute</th>   
+                <th>Description</th>
+                </thead>
+                <tr>
+                    <td>action</td>
+                    <td>Specifies where form data is sent</td>
+                </tr>
+                <tr>
+                    <td>method</td>
+                    <td>Specifies how data is sent</td>
+                </tr>
+                <tr>
+                    <td>autocomplete</td>
+                    <td>Enables or disables autocomplete</td>
+                </tr>
+                <tr>
+                    <td>target</td>
+                    <td>Specifies where the response opens</td>
+                </tr>
+                <tr>
+                    <td>enctype</td>
+                    <td>Specifies how form data is encoded</td>
+                </tr>
+                <tr>
+                    <td>novalidate</td>
+                    <td>Disables browser validation</td>
+                </tr>
+                <tr>
+                    <td>name</td>
+                    <td>Specifies the form name</td>
+                </tr>
+                <tr>
+                    <td>id</td>
+                    <td>Unique identifier for the form</td>
+                </tr>
+                </table>
+<hr>
+<h2 id="att">6.Common Input Attributes</h2>
+<table border="1" style="border-collapse: collapse;">
+    <thead bgcolor="lightskyblue">
+        <tr>
+            <th>Attribute</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+
+    <tr>
+        <td>type</td>
+        <td>Specifies the type of input field</td>
+    </tr>
+    <tr>
+        <td>name</td>
+        <td>Specifies the name of the input field</td>
+    </tr>
+    <tr>
+        <td>id</td>
+        <td>Unique identifier for the input element</td>
+    </tr>
+    <tr>
+        <td>value</td>
+        <td>Sets the default value of the input</td>
+    </tr>
+    <tr>
+        <td>placeholder</td>
+        <td>Displays hint text inside the input field</td>
+    </tr>
+    <tr>
+        <td>required</td>
+        <td>Makes the input field mandatory</td>
+    </tr>
+    <tr>
+        <td>readonly</td>
+        <td>Makes the input field read-only</td>
+    </tr>
+    <tr>
+        <td>disabled</td>
+        <td>Disables the input field</td>
+    </tr>
+    <tr>
+        <td>maxlength</td>
+        <td>Sets the maximum number of characters</td>
+    </tr>
+    <tr>
+        <td>minlength</td>
+        <td>Sets the minimum number of characters</td>
+    </tr>
+    <tr>
+        <td>min</td>
+        <td>Specifies the minimum value</td>
+    </tr>
+    <tr>
+        <td>max</td>
+        <td>Specifies the maximum value</td>
+    </tr>
+    <tr>
+        <td>step</td>
+        <td>Specifies the interval between valid values</td>
+    </tr>
+    <tr>
+        <td>pattern</td>
+        <td>Specifies a regular expression for validation</td>
+    </tr>
+    <tr>
+        <td>autocomplete</td>
+        <td>Enables or disables autocomplete</td>
+    </tr>
+    <tr>
+        <td>autofocus</td>
+        <td>Automatically focuses the input when the page loads</td>
+    </tr>
+    <tr>
+        <td>checked</td>
+        <td>Pre-selects a checkbox or radio button</td>
+    </tr>
+    <tr>
+        <td>multiple</td>
+        <td>Allows multiple values or file selection</td>
+    </tr>
+    <tr>
+        <td>accept</td>
+        <td>Specifies allowed file types for file upload</td>
+    </tr>
+    <tr>
+        <td>size</td>
+        <td>Specifies the visible width of the input field</td>
+    </tr>
+</table>
+<hr>
+<h2 id="get">7. GET vs POST</h2>
+
+<img style="height:400px; width:500px"src="../images/get post_files/b9dc2857-b871-47bf-b0e2-ae6b6de94ff0.png">
+<h2 id="vali">8. Form Validation</h2>
+
+Validation ensures users enter valid and complete information before submitting the form.
+
+<h3>Common Validation Attributes</h3>
+<ul>
+<li>required</li>
+<li>pattern</li>
+<li>min</li>
+<li>max</li>
+<li>maxlength</li>
+<li>minlength</li>
+<li>step</li>
+</ul>
+<hr>
+<h2 id="appli">9. Applications of HTML Forms</h2>
+<ul>
+<li>Login forms</li>
+<li>Registration forms</li>
+<li>Contact forms</li>
+<li>Search bars</li>
+<li>Feedback forms</li>
+<li>Surveys</li>
+<li>Online booking</li>
+<li>Payment forms</li>
+</ul>
+<hr>
+<h2 id="adv">10. Advantages of HTML Forms</h2>
+<ul>
+<li>Collects user information efficiently.</li>
+<li>Supports built-in validation.</li>
+<li>Improves user interaction.</li>
+<li>Supports different input types.</li>
+<li>Integrates with server-side applications.</li>
+</ul>
+<hr>
+ <h2 id="int"><font color="darkred">11.  Interview Questions</font></h2>
+
+<h3><font color="darkblue">1. What is an HTML Form?</font></h3>
+<p><b>Answer:</b> An HTML form is used to collect user input and send it to a server for processing.</p>
+
+<hr>
+
+<h3><font color="darkblue">2. Which tag is used to create a form?</font></h3>
+<p><b>Answer:</b> The <b>&lt;form&gt;</b> tag is used to create an HTML form.</p>
+
+<hr>
+
+<h3><font color="darkblue">3. What is the purpose of the <b>action</b> attribute?</font></h3>
+<p><b>Answer:</b> The <b>action</b> attribute specifies the URL where the form data will be sent.</p>
+
+<hr>
+
+<h3><font color="darkblue">4. What is the purpose of the <b>method</b> attribute?</font></h3>
+<p><b>Answer:</b> The <b>method</b> attribute specifies how form data is sent to the server, such as GET or POST.</p>
+
+<hr>
+
+<h3><font color="darkblue">5. What is the difference between GET and POST?</font></h3>
+<p><b>Answer:</b> GET sends data in the URL, while POST sends data in the request body.</p>
+
+<hr>
+
+<h3><font color="darkblue">6. What is the purpose of the &lt;input&gt; tag?</font></h3>
+<p><b>Answer:</b> The <b>&lt;input&gt;</b> tag is used to create different types of input fields.</p>
+
+<hr>
+
+<h3><font color="darkblue">7. What is the purpose of the &lt;label&gt; tag?</font></h3>
+<p><b>Answer:</b> The <b>&lt;label&gt;</b> tag provides a label for a form control and improves accessibility.</p>
+
+<hr>
+
+<h3><font color="darkblue">8. What is the purpose of the &lt;textarea&gt; tag?</font></h3>
+<p><b>Answer:</b> The <b>&lt;textarea&gt;</b> tag is used to create a multi-line text input field.</p>
+
+<hr>
+
+<h3><font color="darkblue">9. What is the purpose of the &lt;select&gt; tag?</font></h3>
+<p><b>Answer:</b> The <b>&lt;select&gt;</b> tag creates a drop-down list.</p>
+
+<hr>
+
+<h3><font color="darkblue">10. What is the purpose of the &lt;option&gt; tag?</font></h3>
+<p><b>Answer:</b> The <b>&lt;option&gt;</b> tag defines an item in a drop-down list.</p>
+
+<hr>
+
+<h3><font color="darkblue">11. What is the purpose of the &lt;button&gt; tag?</font></h3>
+<p><b>Answer:</b> The <b>&lt;button&gt;</b> tag creates a clickable button.</p>
+
+<hr>
+
+<h3><font color="darkblue">12. What is the purpose of the <b>placeholder</b> attribute?</font></h3>
+<p><b>Answer:</b> The <b>placeholder</b> attribute displays a hint inside an input field.</p>
+
+<hr>
+
+<h3><font color="darkblue">13. What is the purpose of the <b>required</b> attribute?</font></h3>
+<p><b>Answer:</b> The <b>required</b> attribute makes a field mandatory before submitting the form.</p>
+
+<hr>
+
+<h3><font color="darkblue">14. What is the purpose of the <b>name</b> attribute?</font></h3>
+<p><b>Answer:</b> The <b>name</b> attribute identifies the form field when data is submitted.</p>
+
+<hr>
+
+<h3><font color="darkblue">15. What is the purpose of the <b>value</b> attribute?</font></h3>
+<p><b>Answer:</b> The <b>value</b> attribute specifies the default value of an input field.</p>
+
+<hr>
+
+<h3><font color="darkblue">16. Which input type is used to enter a password?</font></h3>
+<p><b>Answer:</b> The <b>password</b> input type is used to enter passwords.</p>
+
+<hr>
+
+<h3><font color="darkblue">17. Which input type is used to upload a file?</font></h3>
+<p><b>Answer:</b> The <b>file</b> input type is used to upload files.</p>
+
+<hr>
+
+<h3><font color="darkblue">18. What is the purpose of the <b>reset</b> button?</font></h3>
+<p><b>Answer:</b> The <b>reset</b> button clears all the values entered in the form.</p>
+
+<hr>
+
+<h3><font color="darkblue">19. What are HTML forms commonly used for?</font></h3>
+<p><b>Answer:</b> HTML forms are used for login pages, registration forms, contact forms, surveys, and user feedback.</p>
+
+<hr>
+
+<h3><font color="darkblue">20. Why are HTML Forms important?</font></h3>
+<p><b>Answer:</b> HTML forms allow users to enter and submit data, making websites interactive and enabling communication between users and servers.</p>
+
+<hr>
+
+</header>
+</td>
+</tr>
+</table>
+
+</html>
