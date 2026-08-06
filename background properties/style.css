@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+}
+
+.content{
+    padding:80px;
+    text-align:center;
+    background:white;
+}
+
+.content h1,
+.content h2{
+    margin-bottom:20px;
+}
+
+.content p{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+.banner{
+    height:100vh;
+
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpjkoS_zduhvLzvojz_qAkmIipmNmEBswZypHbgKD0mg&s=10");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    /* Image Fixed */
+    background-attachment:fixed;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.banner-text{
+    background:rgba(0,0,0,0.5);
+    color:white;
+    padding:30px 50px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.banner-text h1{
+    font-size:60px;
+    margin-bottom:15px;
+}
+
+.banner-text p{
+    font-size:24px;
+}
