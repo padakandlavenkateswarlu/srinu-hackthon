@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.container {
+    position: relative;
+}
+
+
+.big-box {
+    width: 450px;
+    height: 450px;
+    background-color: lightblue;
+    border: 5px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.target-line {
+    width: 500px;
+    height: 6px;
+    background-color: black;
+
+    position: absolute;
+    top: -60px;
+    left: -25px;
+}
+
+
+.coin {
+    width: 45px;
+    height: 45px;
+
+    border-radius: 50%;
+
+    background-color: gold;
+    border: 4px solid goldenrod;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px;
+    font-weight: bold;
+
+    position: absolute;
+
+    bottom: 10px;
+    left: 50%;
+
+    transform: translateX(-50%);
+    
+    animation: coinFlip 3s linear infinite;
+}
+
+
+.coin1 {
+    animation-delay: 0s;
+}
+
+.coin2 {
+    animation-delay: 0.75s;
+}
+
+.coin3 {
+    animation-delay: 1.5s;
+}
+
+.coin4 {
+    animation-delay: 2.25s;
+}
+
+
+
+@keyframes coinFlip {
+
+    
+    0% {
+        bottom: 10px;
+        opacity: 0;
+        transform: translateX(-50%) rotateY(0deg) rotateX(0deg);
+    }
+
+    
+    10% {
+        opacity: 1;
+    }
+
+    
+    30% {
+        bottom: 100px;
+        transform: translateX(-50%) rotateY(180deg) rotateX(20deg);
+    }
+
+    50% {
+        bottom: 200px;
+        transform: translateX(-50%) rotateY(360deg) rotateX(-20deg);
+    }
+
+    70% {
+        bottom: 300px;
+        transform: translateX(-50%) rotateY(540deg) rotateX(20deg);
+    }
+
+    
+    90% {
+        bottom: 400px;
+        transform: translateX(-50%) rotateY(720deg) rotateX(-20deg);
+        opacity: 1;
+    }
+
+    
+    100% {
+        bottom: 420px;
+        transform: translateX(-50%) rotateY(900deg);
+        opacity: 0;
+    }
+}
