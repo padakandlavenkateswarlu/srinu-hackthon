@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Reference Hub</title>
+    <style>
+    
+        body {
+            background: white;
+            color: #5a6679;
+        }
+
+        /* ===== HEADER ===== */
+        .header {
+            background: linear-gradient(90deg, #06b6d4, #14b8a6);
+            color: white;
+            padding: 15px 40px;
+        }
+       .logo {
+            font-size: 22px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .logo span {
+            color: yellowgreen;
+        }
+        .nav-tabs {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+        .nav-tabs button {
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .nav-tabs button.active {
+            background: white;
+            color: #06b6d4;
+            font-weight: bold;
+        }
+
+        /* ===== LAYOUT ===== */
+        .container {
+            display: flex;
+            max-width: 1400px;
+            margin: 20px auto;
+            gap: 20px;
+            padding: 0 20px;
+        }
+
+        /* ===== SIDEBAR ===== */
+        .sidebar {
+            width: 260px;
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            height: fit-content;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="header">
+        <div class="logo">&lt;/&gt; HTML <span>Reference</span> Hub</div>
+        <div class="nav-tabs">
+            <button class="active">Introduction</button>
+            <button>Document Structure</button>
+            <button>Text Formatting</button>
+            <button>Lists</button>
+            <button>Tables</button>
+            <button>Links and Navigations</button>
+            <button>Multimedia</button>
+            <button>Forms</button>
+            <button>Semantic HTML5</button>
+            <button>Graphics&embeds</button>
+        </div>
+    </div>
+<!-- CONTAINER -->
+    <div class="container">
+        
+        <!-- SIDEBAR -->
+        <div class="sidebar">
+            <h3>Introduction</h3>
+            <a href="#" class="active">What is HTML?</a>
+            <a href="#">Why Learn HTML?</a>
+            <a href="#">History of HTML</a>
+            <a href="#">HTML Version (HTML 1t05) </a>
+            <a href="#">Real World Uses of HTML</a>
+
+</body>
+</html>

@@ -1,0 +1,582 @@
+<header>
+
+<h1>HTML Reference Hub</h1>
+
+<p>Learn HTML from basic to advanced</p>
+
+</header>
+
+<!-- Navigation -->
+
+<nav>
+
+<button onclick="showPage('intro')">Introduction</button>
+
+<button onclick="showPage('structure')">Document Structure</button>
+
+<button onclick="showPage('text')">Text Formatting</button>
+
+<button onclick="showPage('lists')">Lists</button>
+
+<button onclick="showPage('tables')">Tables</button>
+
+<button onclick="showPage('links')">Links</button>
+
+<button onclick="showPage('media')">Multimedia</button>
+
+<button onclick="showPage('forms')">Forms</button>
+
+<button onclick="showPage('semantic')">Semantic HTML5</button>
+
+<button onclick="showPage('graphics')">Graphics</button>
+
+</nav>
+<div class="container">
+
+<!-- Sidebar -->
+
+<div class="sidebar">
+
+<h2>Topics</h2>
+
+<ul>
+
+<li onclick="showPage('intro')">Introduction</li>
+
+<li onclick="showPage('structure')">Document Structure</li>
+
+<li onclick="showPage('text')">Text Formatting</li>
+
+<li onclick="showPage('lists')">Lists</li>
+
+<li onclick="showPage('tables')">Tables</li>
+
+<li onclick="showPage('links')">Links</li>
+
+<li onclick="showPage('media')">Multimedia</li>
+
+<li onclick="showPage('forms')">Forms</li>
+
+<li onclick="showPage('semantic')">Semantic HTML5</li>
+
+<li onclick="showPage('graphics')">Graphics</li>
+
+</ul>
+
+</div>
+
+<!-- Content -->
+
+<div class="content">
+
+<!-- Introduction -->
+
+<div id="intro" class="page">
+
+<h2>Introduction</h2>
+
+<h3>What is HTML?</h3>
+
+<p>
+HTML stands for HyperText Markup Language.
+It is used to create the structure of web pages.
+</p>
+
+<h3>Syntax</h3>
+
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;My Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;Hello World&lt;/h1&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</div>
+
+<!-- Document Structure -->
+
+<div id="structure" class="page">
+
+<h2>Document Structure</h2>
+
+<p>
+Every HTML document contains:
+</p>
+
+<ul>
+
+<li>&lt;!DOCTYPE html&gt;</li>
+
+<li>&lt;html&gt;</li>
+
+<li>&lt;head&gt;</li>
+
+<li>&lt;title&gt;</li>
+
+<li>&lt;body&gt;</li>
+
+</ul>
+
+</div>
+
+<!-- Text Formatting -->
+
+<div id="text" class="page">
+
+<h2>Text Formatting</h2>
+
+<p><b>Bold Text</b></p>
+
+<p><i>Italic Text</i></p>
+
+<p><u>Underline Text</u></p>
+
+<p><mark>Highlighted Text</mark></p>
+
+<p><small>Small Text</small></p>
+
+</div>
+
+<!-- Lists -->
+
+<div id="lists" class="page">
+
+<h2>Lists</h2>
+
+<h3>Ordered List</h3>
+
+<ol>
+
+<li>HTML</li>
+
+<li>CSS</li>
+
+<li>JavaScript</li>
+
+</ol>
+
+<h3>Unordered List</h3>
+
+<ul>
+
+<li>Apple</li>
+
+<li>Mango</li>
+
+<li>Orange</li>
+
+</ul>
+
+</div>
+
+<!-- Tables -->
+
+<div id="tables" class="page">
+
+<h2>Tables</h2>
+
+<table border="1">
+
+<tr>
+
+<th>Name</th>
+
+<th>Age</th>
+
+</tr>
+
+<tr>
+
+<td>Rahul</td>
+
+<td>20</td>
+
+</tr>
+
+<tr>
+
+<td>Priya</td>
+
+<td>21</td>
+
+</tr>
+
+</table>
+
+</div>
+
+<!-- Links -->
+
+<div id="links" class="page">
+
+<h2>Links</h2>
+
+<a href="https://www.google.com" target="_blank">
+Visit Google
+</a>
+
+</div>
+
+<!-- Multimedia -->
+
+<div id="media" class="page">
+
+<h2>Multimedia</h2>
+
+<img src="https://via.placeholder.com/250" alt="Sample Image">
+
+</div>
+
+<!-- Forms -->
+
+<div id="forms" class="page">
+
+<h2>Forms</h2>
+
+<form>
+
+Name<br>
+
+<input type="text"><br><br>
+
+Email<br>
+
+<input type="email"><br><br>
+
+Password<br>
+
+<input type="password"><br><br>
+
+<input type="submit">
+
+</form>
+
+</div>
+
+<!-- Semantic -->
+
+<div id="semantic" class="page">
+
+<h2>Semantic HTML5</h2>
+
+<ul>
+
+<li>&lt;header&gt;</li>
+
+<li>&lt;nav&gt;</li>
+
+<li>&lt;section&gt;</li>
+
+<li>&lt;article&gt;</li>
+
+<li>&lt;footer&gt;</li>
+
+</ul>
+
+</div>
+
+<!-- Graphics -->
+
+<div id="graphics" class="page">
+
+<h2>Graphics</h2>
+
+<svg width="200" height="100">
+
+<rect width="200" height="100" fill="skyblue"></rect>
+
+<circle cx="100" cy="50" r="30" fill="red"></circle>
+
+</svg>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+Next Part
+
+In Part 2, I'll provide style.css, which will make this page look similar to the HTML Reference Hub in your screenshot (blue header, sidebar, buttons, modern layout).
+nav{
+    background:#005fa3;
+    padding:10px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+nav button{
+    margin:5px;
+    padding:10px 18px;
+    border:none;
+    background:white;
+    color:#005fa3;
+    font-weight:bold;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+nav button:hover{
+    background:#0077cc;
+    color:white;
+}
+
+/* Main Layout */
+
+.container{
+    display:flex;
+}
+
+/* Sidebar */
+
+.sidebar{
+    width:250px;
+    background:white;
+    padding:20px;
+    border-right:2px solid #ddd;
+    min-height:700px;
+}
+
+.sidebar h2{
+    margin-bottom:15px;
+    color:#005fa3;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar li{
+    padding:12px;
+    margin-bottom:8px;
+    background:#f0f0f0;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+.sidebar li:hover{
+    background:#0077cc;
+    color:white;
+}
+
+/* Content */
+
+.content{
+    flex:1;
+    padding:30px;
+    background:white;
+}
+
+/* Hide All Sections */
+
+.page{
+    display:none;
+}
+
+/* Show First Page */
+
+#intro{
+    display:block;
+}
+
+/* Headings */
+
+.content h2{
+    color:#0077cc;
+    margin-bottom:15px;
+}
+
+.content h3{
+    margin-top:15px;
+    margin-bottom:10px;
+}
+
+/* Paragraph */
+
+.content p{
+    line-height:1.7;
+    margin-bottom:15px;
+}
+
+/* Code Block */
+
+pre{
+    background:#222;
+    color:#00ff99;
+    padding:15px;
+    border-radius:5px;
+    overflow:auto;
+}
+
+/* Table */
+
+table{
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+table th,
+table td{
+    padding:10px;
+    border:1px solid black;
+}
+
+/* Image */
+
+img{
+    margin-top:15px;
+    border:2px solid #ccc;
+}
+
+/* Form */
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    margin-bottom:15px;
+}
+
+input[type=submit]{
+    width:150px;
+    background:#0077cc;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+input[type=submit]:hover{
+    background:#005fa3;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.container{
+    flex-direction:column;
+}
+
+.sidebar{
+    width:100%;
+    min-height:auto;
+}
+
+nav{
+    flex-direction:column;
+}
+
+nav button{
+    width:100%;
+}
+
+}
+Next Step
+
+In Part 3, I'll provide script.js, which makes the navigation work so that:
+
+Clicking Introduction shows the Introduction section.
+Clicking Forms shows the Forms section.
+Clicking Tables shows the Tables section.
+All other sections are hidden automatically.
+
+This will make your Reference Hub behave like the one in your screenshot.
+
+only using html kudarada
+
+అవును, HTML మాత్రమే ఉపయోగించి చేయవచ్చు, కానీ ఒక పరిమితి ఉంది.
+
+HTML మాత్రమే ఉపయోగిస్తే
+
+✅ ఒక section నుండి మరో section కి వెళ్లడానికి anchor links (#id) ఉపయోగించవచ్చు.
+
+ఉదాహరణ:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Reference Hub</title>
+</head>
+<body>
+
+<h1>HTML Reference Hub</h1>
+
+<a href="#intro">Introduction</a> |
+<a href="#forms">Forms</a> |
+<a href="#tables">Tables</a>
+
+<hr>
+
+<h2 id="intro">Introduction</h2>
+<p>
+HTML stands for HyperText Markup Language.
+It is used to create web pages.
+</p>
+
+<hr>
+
+<h2 id="forms">Forms</h2>
+<p>
+HTML forms are used to collect user input.
+</p>
+
+<form>
+Name:
+<input type="text">
+<br><br>
+
+Email:
+<input type="email">
+<br><br>
+
+<input type="submit">
+</form>
+
+<hr>
+
+<h2 id="tables">Tables</h2>
+
+<table border="1">
+<tr>
+<th>Name</th>
+<th>Age</th>
+</tr>
+
+<tr>
+<td>Rahul</td>
+<td>20</td>
+</tr>
+</table>
+
+</body>
+</html>
+ఇది ఎలా పని చేస్తుంది?
+Introduction పై click చేస్తే → Introduction section కి scroll అవుతుంది.
+Forms పై click చేస్తే → Forms section కి scroll అవుతుంది.
+Tables పై click చేస్తే → Tables section కి scroll అవుతుంది.
+కానీ...
+
+మీ screenshot లాగా:
+
+Click చేస్తే పాత content hide అవ్వాలి ❌
+కొత్త content మాత్రమే show అవ్వాలి ❌
+
+ఇది HTML మాత్రమేతో సాధ్యం కాదు. దానికి CSS లేదా JavaScript అవసరం.
+
+మీ Lecturer HTML మాత్రమే అడిగితే, పై విధంగా href="#id" మరియు id ఉపయోగించి Reference Hub తయారు చేయడం సరైన పద్ధతి.
+
+“:#f4f4f4”
